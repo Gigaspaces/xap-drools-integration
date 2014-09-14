@@ -22,13 +22,13 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <spring.version>3.2.4.RELEASE</spring.version>
         <drools.version>5.6.0.Final</drools.version>
-        <gigaspaces.version>9.7.0-ga</gigaspaces.version>
+        <gigaspaces.version>10.0.0-11600-RELEASE</gigaspaces.version>
 	</properties>
 	<modules>
-		<module>mycompany-common</module>
-		<module>mycompany-space</module>
-    	<module>mycompany-client</module>
-  		<module>mycompany-web-services</module>
+		<module>common</module>
+		<module>space</module>
+    	<module>client</module>
+  		<module>web-services</module>
     </modules>
 	<dependencies>
 		<dependency>

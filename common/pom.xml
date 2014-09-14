@@ -1,9 +1,9 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>mycompany-common</artifactId>
+    <artifactId>common</artifactId>
     <packaging>jar</packaging>
-    <name>mycompany-common</name>
+    <name>common</name>
     <parent>
         <groupId>com.mycompany.app</groupId>
         <artifactId>Distributed-Drools</artifactId>
@@ -29,7 +29,7 @@
 	    </dependency>
     </dependencies>
     <build>
-        <finalName>mycompany-common</finalName>
+        <finalName>common</finalName>
         <resources>
             <resource>
                 <directory>src/main/java</directory>
