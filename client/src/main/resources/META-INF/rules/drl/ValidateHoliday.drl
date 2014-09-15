@@ -1,6 +1,6 @@
 package Holiday
 
-import com.mycompany.app.model.facts.*;
+import com.gigaspaces.droolsintegration.model.facts.*;
 import org.apache.log4j.*;
 
 rule "validate holiday"

@@ -9,7 +9,7 @@
 						   http://www.openspaces.org/schema/remoting http://www.openspaces.org/schema/9.7/remoting/openspaces-remoting.xsd
 						   http://www.openspaces.org/schema/core http://www.openspaces.org/schema/9.7/core/openspaces-core.xsd">
 
-	<context:component-scan base-package="com.mycompany.app"/>
+	<context:component-scan base-package="com.gigaspaces.droolsintegration"/>
 	
 	<!-- Enables to configure Spring beans through annotations   -->
 	<context:annotation-config />

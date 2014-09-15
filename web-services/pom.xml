@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
-<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+         xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   
 	<modelVersion>4.0.0</modelVersion>
   	<parent>
-		<groupId>com.mycompany.app</groupId>
-		<artifactId>Distributed-Drools</artifactId>
+		<groupId>com.gigaspaces.droolsintegration</groupId>
+		<artifactId>xap-drools-integration</artifactId>
 		<version>1.0</version>
   	</parent>
   	<artifactId>web-services</artifactId>
@@ -16,7 +16,7 @@
   	</properties>
 	<dependencies>
 		<dependency>
-		    <groupId>com.mycompany.app</groupId>
+		    <groupId>com.gigaspaces.droolsintegration</groupId>
 		    <artifactId>common</artifactId>
 		    <version>1.0</version>
 		    <scope>compile</scope>
