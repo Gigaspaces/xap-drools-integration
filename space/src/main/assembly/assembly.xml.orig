@@ -1,0 +1,45 @@
+<assembly>
+    <id>assemble-pu</id>
+    <formats>
+        <format>jar</format>
+        <format>dir</format>
+    </formats>
+    <includeBaseDirectory>false</includeBaseDirectory>
+    <fileSets>
+        <fileSet>
+            <directory>target/classes</directory>
+            <lineEnding>keep</lineEnding>
+            <outputDirectory>/</outputDirectory>
+            <includes>
+                <include>**/**</include>
+            </includes>
+        </fileSet>
+    </fileSets>
+	<dependencySets>
+	    <dependencySet>
+	      <useProjectArtifact>false</useProjectArtifact>
+	      <useTransitiveDependencies>false</useTransitiveDependencies>
+	      <outputDirectory>lib</outputDirectory>
+	      <excludes>
+<<<<<<< HEAD:space/src/main/assembly/assembly.xml
+	        <exclude>com.mycompany.app:common</exclude>
+=======
+	        <exclude>com.gigaspaces.droolsintegration:common</exclude>
+>>>>>>> d50a77ef2ecb70a99d833ed4dd3533edf26a6a98:space/src/main/assembly/assembly.xml
+	      </excludes>
+	    </dependencySet>
+	    <dependencySet>
+	      <useProjectArtifact>false</useProjectArtifact>
+	      <useTransitiveDependencies>true</useTransitiveDependencies>
+	      <useTransitiveFiltering>true</useTransitiveFiltering>
+	      <outputDirectory>lib</outputDirectory>
+	      <includes>
+<<<<<<< HEAD:space/src/main/assembly/assembly.xml
+	        <include>com.mycompany.app:common</include>
+=======
+	        <include>com.gigaspaces.droolsintegration:common</include>
+>>>>>>> d50a77ef2ecb70a99d833ed4dd3533edf26a6a98:space/src/main/assembly/assembly.xml
+	      </includes>
+	    </dependencySet>
+	</dependencySets>
+</assembly>

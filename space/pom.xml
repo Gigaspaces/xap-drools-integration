@@ -5,8 +5,8 @@
     <packaging>jar</packaging>
     <name>space</name>
     <parent>
-        <groupId>com.mycompany.app</groupId>
-        <artifactId>Distributed-Drools</artifactId>
+        <groupId>com.gigaspaces.droolsintegration</groupId>
+        <artifactId>xap-drools-integration</artifactId>
         <version>1.0</version>
     </parent>
     <properties>
@@ -14,7 +14,7 @@
     </properties>
     <dependencies>
         <dependency>
-            <groupId>com.mycompany.app</groupId>
+            <groupId>com.gigaspaces.droolsintegration</groupId>
             <artifactId>common</artifactId>
             <version>1.0</version>
             <scope>compile</scope>

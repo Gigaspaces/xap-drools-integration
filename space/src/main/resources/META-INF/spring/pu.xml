@@ -24,7 +24,7 @@
     <os-core:giga-space-context/>
     
     <!-- Enable scan for OpenSpaces and Spring components -->
-    <context:component-scan base-package="com.mycompany.app"/>
+    <context:component-scan base-package="com.gigaspaces.droolsintegration"/>
 
     <!-- Enables the usage of @GigaSpaceContext annotation based injection. -->
     <os-core:giga-space-context/>
