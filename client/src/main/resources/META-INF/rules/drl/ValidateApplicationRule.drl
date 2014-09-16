@@ -1,6 +1,6 @@
 package Application
 
-import com.mycompany.app.model.facts.*;
+import com.gigaspaces.droolsintegration.model.facts.*;
 import java.util.Date;
 
 rule "ValidateApplicationRule"

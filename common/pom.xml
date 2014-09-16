@@ -5,8 +5,8 @@
     <packaging>jar</packaging>
     <name>common</name>
     <parent>
-        <groupId>com.mycompany.app</groupId>
-        <artifactId>Distributed-Drools</artifactId>
+        <groupId>com.gigaspaces.droolsintegration</groupId>
+        <artifactId>xap-drools-integration</artifactId>
         <version>1.0</version>
     </parent>
     <dependencies>
