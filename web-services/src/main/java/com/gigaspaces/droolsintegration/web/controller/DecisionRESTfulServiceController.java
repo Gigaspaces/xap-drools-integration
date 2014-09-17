@@ -14,7 +14,7 @@ import com.gigaspaces.droolsintegration.web.services.delegate.DecisionServiceDel
 
 
 @Controller
-@RequestMapping(value = "/mycompany/rest/decision/*")
+@RequestMapping(value = "/rest/decision/*")
 public class DecisionRESTfulServiceController {
 	
     private static final Logger logger = Logger.getLogger(DecisionRESTfulServiceController.class.getName());
