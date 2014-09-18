@@ -16,7 +16,7 @@ import com.gigaspaces.droolsintegration.web.dao.GenericObjectDao;
 
 
 @Controller
-@RequestMapping(value = "/mycompany/rest/*")
+@RequestMapping(value = "/rest/*")
 public class GenericRESTfulServiceController {
 	
     private static final Logger logger = Logger.getLogger(GenericRESTfulServiceController.class.getName());
