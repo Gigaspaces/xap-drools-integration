@@ -45,12 +45,12 @@ public class KnowledgeBaseWrapper implements Serializable {
 	}
 
 	public KnowledgeBase getKnowledgeBase() {
-        return knowledgeBase;
-    }
+		return knowledgeBase;
+	}
 
-    public void setKnowledgeBase(KnowledgeBase knowledgeBase) {
-        this.knowledgeBase = knowledgeBase;
-    }
+	public void setKnowledgeBase(KnowledgeBase knowledgeBase) {
+		this.knowledgeBase = knowledgeBase;
+	}
 
 	public Integer getTotalRules() {
 		return totalRules;
