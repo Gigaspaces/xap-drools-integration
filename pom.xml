@@ -20,7 +20,7 @@
 	</pluginRepositories>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<gigaspaces.version>10.0.1-11800-RELEASE</gigaspaces.version>
+		<gigaspaces.version>10.0.1-ga</gigaspaces.version>
         <spring.version>3.2.4.RELEASE</spring.version>
         <drools.version>5.6.0.Final</drools.version>
         <kryo.version>2.22</kryo.version>
@@ -95,6 +95,7 @@
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
 			<version>4.10</version>
+			<scope>test</scope>
 		</dependency>
 	</dependencies>
 	<build>
