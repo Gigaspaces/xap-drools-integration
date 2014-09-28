@@ -27,6 +27,11 @@
 	    	<version>1.1.4c</version>
 	    	<scope>runtime</scope>
 	    </dependency>
+	    <dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.10</version>
+		</dependency>
     </dependencies>
     <build>
         <finalName>common</finalName>

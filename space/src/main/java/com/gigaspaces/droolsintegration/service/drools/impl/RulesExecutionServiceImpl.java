@@ -23,7 +23,7 @@ public class RulesExecutionServiceImpl implements IRulesExecutionService {
     @Transactional
     public Iterable<Object> executeRules(String ruleSet, Iterable<Object> facts,  Map<String, Object> globals) {
     	
-    	KnowledgeBaseWrapper knowledgeBaseWrapper = knowledgeBaseWrapperDao.readByRuleSet(ruleSet);
+    	KnowledgeBaseWrapper knowledgeBaseWrapper = knowledgeBaseWrapperDao.read(ruleSet);
     	if(knowledgeBaseWrapper != null) {
     		StatelessKnowledgeSession session = knowledgeBaseWrapper.getKnowledgeBase().newStatelessKnowledgeSession();
     		
@@ -49,7 +49,7 @@ public class RulesExecutionServiceImpl implements IRulesExecutionService {
     @Transactional
     public Iterable<Object> executeRulesWithLimitedResults(String ruleSet, IterableMapWrapper facts, List<String> resultKeys, Map<String, Object> globals) {
     	
-    	KnowledgeBaseWrapper knowledgeBaseWrapper = knowledgeBaseWrapperDao.readByRuleSet(ruleSet);
+    	KnowledgeBaseWrapper knowledgeBaseWrapper = knowledgeBaseWrapperDao.read(ruleSet);
     	if(knowledgeBaseWrapper != null) {
     		StatelessKnowledgeSession session = knowledgeBaseWrapper.getKnowledgeBase().newStatelessKnowledgeSession();
     		
